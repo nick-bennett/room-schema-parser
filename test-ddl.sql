@@ -1,3 +1,5 @@
+-- noinspection SqlNoDataSourceInspectionForFile
+
 CREATE TABLE IF NOT EXISTS `Score`
 (
     `game_id`     INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
