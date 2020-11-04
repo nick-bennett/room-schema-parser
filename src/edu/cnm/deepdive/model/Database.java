@@ -8,6 +8,9 @@ public class Database {
   @Expose
   private List<Entity> entities;
 
+  @Expose
+  private List<View> views;
+
   public List<Entity> getEntities() {
     return entities;
   }
@@ -16,4 +19,11 @@ public class Database {
     this.entities = entities;
   }
 
+  public List<View> getViews() {
+    return views;
+  }
+
+  public void setViews(List<View> views) {
+    this.views = views;
+  }
 }
