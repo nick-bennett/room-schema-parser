@@ -5,7 +5,7 @@
       <element id="archive" name="room-schema-parser.jar">
         <element id="module-output" name="room-schema-parser" />
       </element>
-      <element id="library" level="application" name="GsonBad" />
+      <element id="library" level="application" name="Gson" />
     </root>
   </artifact>
 </component>
